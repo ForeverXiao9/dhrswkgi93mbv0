@@ -21,11 +21,12 @@ proxies:
   - {name: 🇯🇵 VIP2 A组 日本02 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10048, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
   - {name: 🇯🇵 VIP2 A组 日本03 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10049, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
   - {name: 🇯🇵 VIP2 A组 日本04 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10050, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: VIP2 A组 禁视频|游戏节点X5x, server: iplc.popocloudiplc.online, port: 10135, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
   - {name: 🇺🇸 VIP2 A组 美国01 流媒体解锁|原生IP, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10051, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
   - {name: 🇺🇸 VIP2 A组 美国02 流媒体解锁|原生IP, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10052, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
   - {name: 🇺🇸 VIP2 A组 美国03 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10053, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
   - {name: 🇺🇸 VIP2 A组 美国04 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10054, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
+  - {name: 🇰🇷 VIP2 A组 韩国01, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10168, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
+  - {name: 🇰🇷 VIP2 A组 韩国02, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10169, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
   - {name: 🇭🇰 VIP2 A组 香港01 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10056, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
   - {name: 🇭🇰 VIP2 A组 香港02 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10055, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
   - {name: 🇭🇰 VIP2 A组 香港03 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10057, type: vmess, uuid: 3edb5f3f-1c7e-1459-5b8c-1123cf0a1b1c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
@@ -58,11 +59,12 @@ proxy-groups:
       - 🇯🇵 VIP2 A组 日本02 流媒体解锁
       - 🇯🇵 VIP2 A组 日本03 流媒体解锁
       - 🇯🇵 VIP2 A组 日本04 流媒体解锁
-      - VIP2 A组 禁视频|游戏节点X5x
       - 🇺🇸 VIP2 A组 美国01 流媒体解锁|原生IP
       - 🇺🇸 VIP2 A组 美国02 流媒体解锁|原生IP
       - 🇺🇸 VIP2 A组 美国03 流媒体解锁
       - 🇺🇸 VIP2 A组 美国04 流媒体解锁
+      - 🇰🇷 VIP2 A组 韩国01
+      - 🇰🇷 VIP2 A组 韩国02
       - 🇭🇰 VIP2 A组 香港01 流媒体解锁
       - 🇭🇰 VIP2 A组 香港02 流媒体解锁
       - 🇭🇰 VIP2 A组 香港03 流媒体解锁
@@ -94,11 +96,12 @@ proxy-groups:
       - 🇯🇵 VIP2 A组 日本02 流媒体解锁
       - 🇯🇵 VIP2 A组 日本03 流媒体解锁
       - 🇯🇵 VIP2 A组 日本04 流媒体解锁
-      - VIP2 A组 禁视频|游戏节点X5x
       - 🇺🇸 VIP2 A组 美国01 流媒体解锁|原生IP
       - 🇺🇸 VIP2 A组 美国02 流媒体解锁|原生IP
       - 🇺🇸 VIP2 A组 美国03 流媒体解锁
       - 🇺🇸 VIP2 A组 美国04 流媒体解锁
+      - 🇰🇷 VIP2 A组 韩国01
+      - 🇰🇷 VIP2 A组 韩国02
       - 🇭🇰 VIP2 A组 香港01 流媒体解锁
       - 🇭🇰 VIP2 A组 香港02 流媒体解锁
       - 🇭🇰 VIP2 A组 香港03 流媒体解锁
@@ -129,11 +132,12 @@ proxy-groups:
       - 🇯🇵 VIP2 A组 日本02 流媒体解锁
       - 🇯🇵 VIP2 A组 日本03 流媒体解锁
       - 🇯🇵 VIP2 A组 日本04 流媒体解锁
-      - VIP2 A组 禁视频|游戏节点X5x
       - 🇺🇸 VIP2 A组 美国01 流媒体解锁|原生IP
       - 🇺🇸 VIP2 A组 美国02 流媒体解锁|原生IP
       - 🇺🇸 VIP2 A组 美国03 流媒体解锁
       - 🇺🇸 VIP2 A组 美国04 流媒体解锁
+      - 🇰🇷 VIP2 A组 韩国01
+      - 🇰🇷 VIP2 A组 韩国02
       - 🇭🇰 VIP2 A组 香港01 流媒体解锁
       - 🇭🇰 VIP2 A组 香港02 流媒体解锁
       - 🇭🇰 VIP2 A组 香港03 流媒体解锁
@@ -164,11 +168,12 @@ proxy-groups:
       - 🇯🇵 VIP2 A组 日本02 流媒体解锁
       - 🇯🇵 VIP2 A组 日本03 流媒体解锁
       - 🇯🇵 VIP2 A组 日本04 流媒体解锁
-      - VIP2 A组 禁视频|游戏节点X5x
       - 🇺🇸 VIP2 A组 美国01 流媒体解锁|原生IP
       - 🇺🇸 VIP2 A组 美国02 流媒体解锁|原生IP
       - 🇺🇸 VIP2 A组 美国03 流媒体解锁
       - 🇺🇸 VIP2 A组 美国04 流媒体解锁
+      - 🇰🇷 VIP2 A组 韩国01
+      - 🇰🇷 VIP2 A组 韩国02
       - 🇭🇰 VIP2 A组 香港01 流媒体解锁
       - 🇭🇰 VIP2 A组 香港02 流媒体解锁
       - 🇭🇰 VIP2 A组 香港03 流媒体解锁
@@ -212,6 +217,7 @@ proxy-groups:
 rules:
  - DOMAIN-SUFFIX,onedrive.live.com,🚀 节点选择
  - DOMAIN-SUFFIX,renzhe.cloud,🚀 节点选择
+ - DOMAIN-SUFFIX,renzhesub.com,🚀 节点选择
  - DOMAIN-SUFFIX,renzhecloud.link,🚀 节点选择
  - DOMAIN-SUFFIX,crisp.help,🚀 节点选择
  - DOMAIN-SUFFIX,crisp.chat,🚀 节点选择
@@ -250,6 +256,7 @@ rules:
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
  - DOMAIN,analytics.strava.com,🎯 全球直连
@@ -1543,7 +1550,6 @@ rules:
  - DOMAIN-SUFFIX,encoretvb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fox.com,🚀 节点选择
  - DOMAIN-SUFFIX,foxdcg.com,🚀 节点选择
- - DOMAIN-SUFFIX,theplatform.com,🚀 节点选择
  - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
@@ -1563,6 +1569,7 @@ rules:
  - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
+ - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
@@ -1572,6 +1579,10 @@ rules:
  - DOMAIN,hboasia3-i.akamaihd.net,🚀 节点选择
  - DOMAIN,hboasia4-i.akamaihd.net,🚀 节点选择
  - DOMAIN,hboasia5-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasialive.akamaized.net,🚀 节点选择
+ - DOMAIN,hbogoprod-vod.akamaized.net,🚀 节点选择
+ - DOMAIN,hbolb.onwardsmg.com,🚀 节点选择
+ - DOMAIN,hbounify-prod.evergent.com,🚀 节点选择
  - DOMAIN,players.brightcove.net,🚀 节点选择
  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
@@ -1736,7 +1747,6 @@ rules:
  - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
  - DOMAIN-SUFFIX,cccat.io,🚀 节点选择
  - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
- - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
  - DOMAIN-SUFFIX,garena.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
@@ -7336,8 +7346,6 @@ rules:
  - DOMAIN-SUFFIX,discord.media,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.com,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.net,🚀 节点选择
- - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
- - DOMAIN-SUFFIX,duboxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,facebook.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.me,🚀 节点选择
@@ -7497,6 +7505,8 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
+ - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
  - IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
  - IP-CIDR,34.224.0.0/12,🚀 节点选择,no-resolve
  - IP-CIDR,54.242.0.0/15,🚀 节点选择,no-resolve
