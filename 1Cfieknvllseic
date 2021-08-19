@@ -5,185 +5,500 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 VIP2 A组 台湾01 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10037, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇨🇳 VIP2 A组 台湾02 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10038, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇨🇳 VIP2 A组 台湾03 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10039, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇨🇳 VIP2 A组 台湾04 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10040, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇸🇬 VIP2 A组 新加坡01 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10007, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇸🇬 VIP2 A组 新加坡02 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10008, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇸🇬 VIP2 A组 新加坡03 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10041, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇸🇬 VIP2 A组 新加坡04 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10042, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇸🇬 VIP2 A组 新加坡05 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10043, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇸🇬 VIP2 A组 新加坡06 媒体解锁流, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10044, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇸🇬 VIP2 A组 新加坡07 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10045, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇸🇬 VIP2 A组 新加坡08 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10046, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇯🇵 VIP2 A组 日本01 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10047, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇯🇵 VIP2 A组 日本02 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10048, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇯🇵 VIP2 A组 日本03 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10049, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇯🇵 VIP2 A组 日本04 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10050, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇺🇸 VIP2 A组 美国01 流媒体解锁|原生IP, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10051, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇺🇸 VIP2 A组 美国02 流媒体解锁|原生IP, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10052, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇺🇸 VIP2 A组 美国03 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10053, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇺🇸 VIP2 A组 美国04 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10054, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇰🇷 VIP2 A组 韩国01, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10168, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇰🇷 VIP2 A组 韩国02, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10169, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇭🇰 VIP2 A组 香港01 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10056, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇭🇰 VIP2 A组 香港02 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10055, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇭🇰 VIP2 A组 香港03 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10057, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇭🇰 VIP2 A组 香港04 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10058, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇭🇰 VIP2 A组 香港05 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10059, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇭🇰 VIP2 A组 香港06 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10060, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇭🇰 VIP2 A组 香港07 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10061, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇭🇰 VIP2 A组 香港08 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10062, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇭🇰 VIP2 A组 香港09 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10063, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇭🇰 VIP2 A组 香港10 流媒体解锁, server: 8lja5tmvxum7zwxrlnbz.popocloudrelayserver.online, port: 10064, type: vmess, uuid: 7a1cd7e0-841d-efda-6646-138d79f86425, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
+  - {name: 🌈 OC-HanGuo-01, server: 193.123.238.193, port: 6954, type: vmess, uuid: bf3eb95e-c4e9-4e18-8042-535de8e2fde2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🌈 OC-HanGuo-02, server: 132.226.19.189, port: 6954, type: vmess, uuid: 8d0dba94-cfa0-40b3-96e6-db4e65074742, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 *Ultimate|广台-B|01, server: ultimate-ct-1.nodesub.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇨🇳 *Ultimate|广台-B|02, server: ultimate-ct-1.nodesub.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇨🇳 *Ultimate|广台|01, server: advanced-cm-3.nodesub.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇨🇳 *Ultimate|广台|02, server: advanced-cm-3.nodesub.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 *Ultimate|广新-B|01, server: ultimate-ct-1.nodesub.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 *Ultimate|广新-B|02, server: ultimate-ct-1.nodesub.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 *Ultimate|广新|01, server: advanced-cm-3.nodesub.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 *Ultimate|广新|02, server: advanced-cm-3.nodesub.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 *Ultimate|广日-B|01, server: ultimate-ct-1.nodesub.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 *Ultimate|广日-B|02, server: ultimate-ct-1.nodesub.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 *Ultimate|广日|01, server: advanced-cm-3.nodesub.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 *Ultimate|广日|02, server: advanced-cm-3.nodesub.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港-B|01, server: ultimate-ct-1.nodesub.com, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港-B|02, server: ultimate-ct-1.nodesub.com, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港-B|03, server: ultimate-ct-1.nodesub.com, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港-B|04, server: ultimate-ct-1.nodesub.com, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港-B|05, server: ultimate-ct-1.nodesub.com, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港-B|06, server: ultimate-ct-1.nodesub.com, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港-B|07, server: ultimate-ct-1.nodesub.com, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港-B|08, server: ultimate-ct-1.nodesub.com, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港-B|09, server: ultimate-ct-1.nodesub.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港-B|10, server: ultimate-ct-1.nodesub.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港|01, server: advanced-cm-3.nodesub.com, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港|02, server: advanced-cm-3.nodesub.com, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港|03, server: advanced-cm-3.nodesub.com, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港|04, server: advanced-cm-3.nodesub.com, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港|05, server: advanced-cm-3.nodesub.com, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港|06, server: advanced-cm-3.nodesub.com, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港|07, server: advanced-cm-3.nodesub.com, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港|08, server: advanced-cm-3.nodesub.com, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港|09, server: advanced-cm-3.nodesub.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 *Ultimate|广港|10, server: advanced-cm-3.nodesub.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 *Ultimate|广美-B|01, server: ultimate-ct-1.nodesub.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 *Ultimate|广美-B|02, server: ultimate-ct-1.nodesub.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 *Ultimate|广美|01, server: advanced-cm-3.nodesub.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 *Ultimate|广美|02, server: advanced-cm-3.nodesub.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇰🇷 *Ultimate|广韩-B|01, server: ultimate-ct-1.nodesub.com, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇰🇷 *Ultimate|广韩-B|02, server: ultimate-ct-1.nodesub.com, port: 7601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇰🇷 *Ultimate|广韩|01, server: advanced-cm-3.nodesub.com, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇰🇷 *Ultimate|广韩|02, server: advanced-cm-3.nodesub.com, port: 7601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇨🇳 Advanced|广台|01, server: advanced-cm-1.nodesub.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇨🇳 Advanced|广台|02, server: advanced-cm-1.nodesub.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 Advanced|广新|01, server: advanced-cm-2.nodesub.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 Advanced|广新|02, server: advanced-cm-2.nodesub.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 Advanced|广日|01, server: advanced-cm-2.nodesub.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 Advanced|广日|02, server: advanced-cm-2.nodesub.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Advanced|广港|01, server: advanced-cm-1.nodesub.com, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Advanced|广港|02, server: advanced-cm-1.nodesub.com, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Advanced|广港|03, server: advanced-cm-1.nodesub.com, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Advanced|广港|04, server: advanced-cm-1.nodesub.com, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Advanced|广港|05, server: advanced-cm-1.nodesub.com, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Advanced|广港|06, server: advanced-cm-1.nodesub.com, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Advanced|广港|07, server: advanced-cm-1.nodesub.com, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Advanced|广港|08, server: advanced-cm-1.nodesub.com, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Advanced|广港|09, server: advanced-cm-1.nodesub.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Advanced|广港|10, server: advanced-cm-1.nodesub.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 Advanced|广美|01, server: advanced-cm-2.nodesub.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 Advanced|广美|02, server: advanced-cm-2.nodesub.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇰🇷 Advanced|广韩|01, server: advanced-cm-2.nodesub.com, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇰🇷 Advanced|广韩|02, server: advanced-cm-2.nodesub.com, port: 7601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇨🇳 Basic|广台|01, server: cmrelay-basic-1.nodesub.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇨🇳 Basic|广台|02, server: cmrelay-basic-1.nodesub.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 Basic|广新|01, server: cmrelay-basic-2.nodesub.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 Basic|广新|02, server: cmrelay-basic-2.nodesub.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 Basic|广新|03, server: cmrelay-basic-2.nodesub.com, port: 6602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 Basic|广新|04, server: cmrelay-basic-2.nodesub.com, port: 6603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 Basic|广新|05, server: cmrelay-basic-2.nodesub.com, port: 6604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇸🇬 Basic|广新|06, server: cmrelay-basic-2.nodesub.com, port: 6605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 Basic|广日|01, server: cmrelay-basic-2.nodesub.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 Basic|广日|02, server: cmrelay-basic-2.nodesub.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 Basic|广日|03, server: cmrelay-basic-2.nodesub.com, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 Basic|广日|04, server: cmrelay-basic-2.nodesub.com, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 Basic|广日|05, server: cmrelay-basic-2.nodesub.com, port: 4604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇯🇵 Basic|广日|06, server: cmrelay-basic-2.nodesub.com, port: 4605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Basic|广港|01, server: cmrelay-basic-1.nodesub.com, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Basic|广港|02, server: cmrelay-basic-1.nodesub.com, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Basic|广港|03, server: cmrelay-basic-1.nodesub.com, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Basic|广港|04, server: cmrelay-basic-1.nodesub.com, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Basic|广港|05, server: cmrelay-basic-1.nodesub.com, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Basic|广港|06, server: cmrelay-basic-1.nodesub.com, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Basic|广港|07, server: cmrelay-basic-1.nodesub.com, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Basic|广港|08, server: cmrelay-basic-1.nodesub.com, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Basic|广港|09, server: cmrelay-basic-1.nodesub.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇭🇰 Basic|广港|10, server: cmrelay-basic-1.nodesub.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 Basic|广美|01, server: cmrelay-basic-2.nodesub.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 Basic|广美|02, server: cmrelay-basic-2.nodesub.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 Basic|广美|03, server: cmrelay-basic-2.nodesub.com, port: 5602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 Basic|广美|04, server: cmrelay-basic-2.nodesub.com, port: 5603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 Basic|广美|05, server: cmrelay-basic-2.nodesub.com, port: 5604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇺🇸 Basic|广美|06, server: cmrelay-basic-2.nodesub.com, port: 5605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇰🇷 Basic|广韩|01, server: cmrelay-basic-2.nodesub.com, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🇰🇷 Basic|广韩|02, server: cmrelay-basic-2.nodesub.com, port: 7601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
+  - {name: 🏳️‍🌈 Renew|应急续费使用, server: hkhktrenew.nodesub.com, port: 63257, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 9287623095.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 VIP2 A组 台湾01 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾02 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾03 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾04 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡01 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡02 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡03 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡04 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡05 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡06 媒体解锁流
-      - 🇸🇬 VIP2 A组 新加坡07 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡08 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本01 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本02 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本03 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本04 流媒体解锁
-      - 🇺🇸 VIP2 A组 美国01 流媒体解锁|原生IP
-      - 🇺🇸 VIP2 A组 美国02 流媒体解锁|原生IP
-      - 🇺🇸 VIP2 A组 美国03 流媒体解锁
-      - 🇺🇸 VIP2 A组 美国04 流媒体解锁
-      - 🇰🇷 VIP2 A组 韩国01
-      - 🇰🇷 VIP2 A组 韩国02
-      - 🇭🇰 VIP2 A组 香港01 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港02 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港03 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港04 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港05 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港06 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港07 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港08 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港09 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港10 流媒体解锁
+      - 🌈 OC-HanGuo-01
+      - 🌈 OC-HanGuo-02
+      - 🇨🇳 *Ultimate|广台-B|01
+      - 🇨🇳 *Ultimate|广台-B|02
+      - 🇨🇳 *Ultimate|广台|01
+      - 🇨🇳 *Ultimate|广台|02
+      - 🇸🇬 *Ultimate|广新-B|01
+      - 🇸🇬 *Ultimate|广新-B|02
+      - 🇸🇬 *Ultimate|广新|01
+      - 🇸🇬 *Ultimate|广新|02
+      - 🇯🇵 *Ultimate|广日-B|01
+      - 🇯🇵 *Ultimate|广日-B|02
+      - 🇯🇵 *Ultimate|广日|01
+      - 🇯🇵 *Ultimate|广日|02
+      - 🇭🇰 *Ultimate|广港-B|01
+      - 🇭🇰 *Ultimate|广港-B|02
+      - 🇭🇰 *Ultimate|广港-B|03
+      - 🇭🇰 *Ultimate|广港-B|04
+      - 🇭🇰 *Ultimate|广港-B|05
+      - 🇭🇰 *Ultimate|广港-B|06
+      - 🇭🇰 *Ultimate|广港-B|07
+      - 🇭🇰 *Ultimate|广港-B|08
+      - 🇭🇰 *Ultimate|广港-B|09
+      - 🇭🇰 *Ultimate|广港-B|10
+      - 🇭🇰 *Ultimate|广港|01
+      - 🇭🇰 *Ultimate|广港|02
+      - 🇭🇰 *Ultimate|广港|03
+      - 🇭🇰 *Ultimate|广港|04
+      - 🇭🇰 *Ultimate|广港|05
+      - 🇭🇰 *Ultimate|广港|06
+      - 🇭🇰 *Ultimate|广港|07
+      - 🇭🇰 *Ultimate|广港|08
+      - 🇭🇰 *Ultimate|广港|09
+      - 🇭🇰 *Ultimate|广港|10
+      - 🇺🇸 *Ultimate|广美-B|01
+      - 🇺🇸 *Ultimate|广美-B|02
+      - 🇺🇸 *Ultimate|广美|01
+      - 🇺🇸 *Ultimate|广美|02
+      - 🇰🇷 *Ultimate|广韩-B|01
+      - 🇰🇷 *Ultimate|广韩-B|02
+      - 🇰🇷 *Ultimate|广韩|01
+      - 🇰🇷 *Ultimate|广韩|02
+      - 🇨🇳 Advanced|广台|01
+      - 🇨🇳 Advanced|广台|02
+      - 🇸🇬 Advanced|广新|01
+      - 🇸🇬 Advanced|广新|02
+      - 🇯🇵 Advanced|广日|01
+      - 🇯🇵 Advanced|广日|02
+      - 🇭🇰 Advanced|广港|01
+      - 🇭🇰 Advanced|广港|02
+      - 🇭🇰 Advanced|广港|03
+      - 🇭🇰 Advanced|广港|04
+      - 🇭🇰 Advanced|广港|05
+      - 🇭🇰 Advanced|广港|06
+      - 🇭🇰 Advanced|广港|07
+      - 🇭🇰 Advanced|广港|08
+      - 🇭🇰 Advanced|广港|09
+      - 🇭🇰 Advanced|广港|10
+      - 🇺🇸 Advanced|广美|01
+      - 🇺🇸 Advanced|广美|02
+      - 🇰🇷 Advanced|广韩|01
+      - 🇰🇷 Advanced|广韩|02
+      - 🇨🇳 Basic|广台|01
+      - 🇨🇳 Basic|广台|02
+      - 🇸🇬 Basic|广新|01
+      - 🇸🇬 Basic|广新|02
+      - 🇸🇬 Basic|广新|03
+      - 🇸🇬 Basic|广新|04
+      - 🇸🇬 Basic|广新|05
+      - 🇸🇬 Basic|广新|06
+      - 🇯🇵 Basic|广日|01
+      - 🇯🇵 Basic|广日|02
+      - 🇯🇵 Basic|广日|03
+      - 🇯🇵 Basic|广日|04
+      - 🇯🇵 Basic|广日|05
+      - 🇯🇵 Basic|广日|06
+      - 🇭🇰 Basic|广港|01
+      - 🇭🇰 Basic|广港|02
+      - 🇭🇰 Basic|广港|03
+      - 🇭🇰 Basic|广港|04
+      - 🇭🇰 Basic|广港|05
+      - 🇭🇰 Basic|广港|06
+      - 🇭🇰 Basic|广港|07
+      - 🇭🇰 Basic|广港|08
+      - 🇭🇰 Basic|广港|09
+      - 🇭🇰 Basic|广港|10
+      - 🇺🇸 Basic|广美|01
+      - 🇺🇸 Basic|广美|02
+      - 🇺🇸 Basic|广美|03
+      - 🇺🇸 Basic|广美|04
+      - 🇺🇸 Basic|广美|05
+      - 🇺🇸 Basic|广美|06
+      - 🇰🇷 Basic|广韩|01
+      - 🇰🇷 Basic|广韩|02
+      - 🏳️‍🌈 Renew|应急续费使用
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 VIP2 A组 台湾01 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾02 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾03 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾04 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡01 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡02 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡03 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡04 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡05 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡06 媒体解锁流
-      - 🇸🇬 VIP2 A组 新加坡07 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡08 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本01 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本02 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本03 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本04 流媒体解锁
-      - 🇺🇸 VIP2 A组 美国01 流媒体解锁|原生IP
-      - 🇺🇸 VIP2 A组 美国02 流媒体解锁|原生IP
-      - 🇺🇸 VIP2 A组 美国03 流媒体解锁
-      - 🇺🇸 VIP2 A组 美国04 流媒体解锁
-      - 🇰🇷 VIP2 A组 韩国01
-      - 🇰🇷 VIP2 A组 韩国02
-      - 🇭🇰 VIP2 A组 香港01 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港02 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港03 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港04 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港05 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港06 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港07 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港08 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港09 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港10 流媒体解锁
+      - 🌈 OC-HanGuo-01
+      - 🌈 OC-HanGuo-02
+      - 🇨🇳 *Ultimate|广台-B|01
+      - 🇨🇳 *Ultimate|广台-B|02
+      - 🇨🇳 *Ultimate|广台|01
+      - 🇨🇳 *Ultimate|广台|02
+      - 🇸🇬 *Ultimate|广新-B|01
+      - 🇸🇬 *Ultimate|广新-B|02
+      - 🇸🇬 *Ultimate|广新|01
+      - 🇸🇬 *Ultimate|广新|02
+      - 🇯🇵 *Ultimate|广日-B|01
+      - 🇯🇵 *Ultimate|广日-B|02
+      - 🇯🇵 *Ultimate|广日|01
+      - 🇯🇵 *Ultimate|广日|02
+      - 🇭🇰 *Ultimate|广港-B|01
+      - 🇭🇰 *Ultimate|广港-B|02
+      - 🇭🇰 *Ultimate|广港-B|03
+      - 🇭🇰 *Ultimate|广港-B|04
+      - 🇭🇰 *Ultimate|广港-B|05
+      - 🇭🇰 *Ultimate|广港-B|06
+      - 🇭🇰 *Ultimate|广港-B|07
+      - 🇭🇰 *Ultimate|广港-B|08
+      - 🇭🇰 *Ultimate|广港-B|09
+      - 🇭🇰 *Ultimate|广港-B|10
+      - 🇭🇰 *Ultimate|广港|01
+      - 🇭🇰 *Ultimate|广港|02
+      - 🇭🇰 *Ultimate|广港|03
+      - 🇭🇰 *Ultimate|广港|04
+      - 🇭🇰 *Ultimate|广港|05
+      - 🇭🇰 *Ultimate|广港|06
+      - 🇭🇰 *Ultimate|广港|07
+      - 🇭🇰 *Ultimate|广港|08
+      - 🇭🇰 *Ultimate|广港|09
+      - 🇭🇰 *Ultimate|广港|10
+      - 🇺🇸 *Ultimate|广美-B|01
+      - 🇺🇸 *Ultimate|广美-B|02
+      - 🇺🇸 *Ultimate|广美|01
+      - 🇺🇸 *Ultimate|广美|02
+      - 🇰🇷 *Ultimate|广韩-B|01
+      - 🇰🇷 *Ultimate|广韩-B|02
+      - 🇰🇷 *Ultimate|广韩|01
+      - 🇰🇷 *Ultimate|广韩|02
+      - 🇨🇳 Advanced|广台|01
+      - 🇨🇳 Advanced|广台|02
+      - 🇸🇬 Advanced|广新|01
+      - 🇸🇬 Advanced|广新|02
+      - 🇯🇵 Advanced|广日|01
+      - 🇯🇵 Advanced|广日|02
+      - 🇭🇰 Advanced|广港|01
+      - 🇭🇰 Advanced|广港|02
+      - 🇭🇰 Advanced|广港|03
+      - 🇭🇰 Advanced|广港|04
+      - 🇭🇰 Advanced|广港|05
+      - 🇭🇰 Advanced|广港|06
+      - 🇭🇰 Advanced|广港|07
+      - 🇭🇰 Advanced|广港|08
+      - 🇭🇰 Advanced|广港|09
+      - 🇭🇰 Advanced|广港|10
+      - 🇺🇸 Advanced|广美|01
+      - 🇺🇸 Advanced|广美|02
+      - 🇰🇷 Advanced|广韩|01
+      - 🇰🇷 Advanced|广韩|02
+      - 🇨🇳 Basic|广台|01
+      - 🇨🇳 Basic|广台|02
+      - 🇸🇬 Basic|广新|01
+      - 🇸🇬 Basic|广新|02
+      - 🇸🇬 Basic|广新|03
+      - 🇸🇬 Basic|广新|04
+      - 🇸🇬 Basic|广新|05
+      - 🇸🇬 Basic|广新|06
+      - 🇯🇵 Basic|广日|01
+      - 🇯🇵 Basic|广日|02
+      - 🇯🇵 Basic|广日|03
+      - 🇯🇵 Basic|广日|04
+      - 🇯🇵 Basic|广日|05
+      - 🇯🇵 Basic|广日|06
+      - 🇭🇰 Basic|广港|01
+      - 🇭🇰 Basic|广港|02
+      - 🇭🇰 Basic|广港|03
+      - 🇭🇰 Basic|广港|04
+      - 🇭🇰 Basic|广港|05
+      - 🇭🇰 Basic|广港|06
+      - 🇭🇰 Basic|广港|07
+      - 🇭🇰 Basic|广港|08
+      - 🇭🇰 Basic|广港|09
+      - 🇭🇰 Basic|广港|10
+      - 🇺🇸 Basic|广美|01
+      - 🇺🇸 Basic|广美|02
+      - 🇺🇸 Basic|广美|03
+      - 🇺🇸 Basic|广美|04
+      - 🇺🇸 Basic|广美|05
+      - 🇺🇸 Basic|广美|06
+      - 🇰🇷 Basic|广韩|01
+      - 🇰🇷 Basic|广韩|02
+      - 🏳️‍🌈 Renew|应急续费使用
   - name: 📹 油管视频
     type: select
     proxies:
       - 🚀 节点选择
-      - 🇨🇳 VIP2 A组 台湾01 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾02 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾03 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾04 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡01 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡02 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡03 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡04 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡05 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡06 媒体解锁流
-      - 🇸🇬 VIP2 A组 新加坡07 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡08 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本01 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本02 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本03 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本04 流媒体解锁
-      - 🇺🇸 VIP2 A组 美国01 流媒体解锁|原生IP
-      - 🇺🇸 VIP2 A组 美国02 流媒体解锁|原生IP
-      - 🇺🇸 VIP2 A组 美国03 流媒体解锁
-      - 🇺🇸 VIP2 A组 美国04 流媒体解锁
-      - 🇰🇷 VIP2 A组 韩国01
-      - 🇰🇷 VIP2 A组 韩国02
-      - 🇭🇰 VIP2 A组 香港01 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港02 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港03 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港04 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港05 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港06 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港07 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港08 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港09 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港10 流媒体解锁
+      - 🌈 OC-HanGuo-01
+      - 🌈 OC-HanGuo-02
+      - 🇨🇳 *Ultimate|广台-B|01
+      - 🇨🇳 *Ultimate|广台-B|02
+      - 🇨🇳 *Ultimate|广台|01
+      - 🇨🇳 *Ultimate|广台|02
+      - 🇸🇬 *Ultimate|广新-B|01
+      - 🇸🇬 *Ultimate|广新-B|02
+      - 🇸🇬 *Ultimate|广新|01
+      - 🇸🇬 *Ultimate|广新|02
+      - 🇯🇵 *Ultimate|广日-B|01
+      - 🇯🇵 *Ultimate|广日-B|02
+      - 🇯🇵 *Ultimate|广日|01
+      - 🇯🇵 *Ultimate|广日|02
+      - 🇭🇰 *Ultimate|广港-B|01
+      - 🇭🇰 *Ultimate|广港-B|02
+      - 🇭🇰 *Ultimate|广港-B|03
+      - 🇭🇰 *Ultimate|广港-B|04
+      - 🇭🇰 *Ultimate|广港-B|05
+      - 🇭🇰 *Ultimate|广港-B|06
+      - 🇭🇰 *Ultimate|广港-B|07
+      - 🇭🇰 *Ultimate|广港-B|08
+      - 🇭🇰 *Ultimate|广港-B|09
+      - 🇭🇰 *Ultimate|广港-B|10
+      - 🇭🇰 *Ultimate|广港|01
+      - 🇭🇰 *Ultimate|广港|02
+      - 🇭🇰 *Ultimate|广港|03
+      - 🇭🇰 *Ultimate|广港|04
+      - 🇭🇰 *Ultimate|广港|05
+      - 🇭🇰 *Ultimate|广港|06
+      - 🇭🇰 *Ultimate|广港|07
+      - 🇭🇰 *Ultimate|广港|08
+      - 🇭🇰 *Ultimate|广港|09
+      - 🇭🇰 *Ultimate|广港|10
+      - 🇺🇸 *Ultimate|广美-B|01
+      - 🇺🇸 *Ultimate|广美-B|02
+      - 🇺🇸 *Ultimate|广美|01
+      - 🇺🇸 *Ultimate|广美|02
+      - 🇰🇷 *Ultimate|广韩-B|01
+      - 🇰🇷 *Ultimate|广韩-B|02
+      - 🇰🇷 *Ultimate|广韩|01
+      - 🇰🇷 *Ultimate|广韩|02
+      - 🇨🇳 Advanced|广台|01
+      - 🇨🇳 Advanced|广台|02
+      - 🇸🇬 Advanced|广新|01
+      - 🇸🇬 Advanced|广新|02
+      - 🇯🇵 Advanced|广日|01
+      - 🇯🇵 Advanced|广日|02
+      - 🇭🇰 Advanced|广港|01
+      - 🇭🇰 Advanced|广港|02
+      - 🇭🇰 Advanced|广港|03
+      - 🇭🇰 Advanced|广港|04
+      - 🇭🇰 Advanced|广港|05
+      - 🇭🇰 Advanced|广港|06
+      - 🇭🇰 Advanced|广港|07
+      - 🇭🇰 Advanced|广港|08
+      - 🇭🇰 Advanced|广港|09
+      - 🇭🇰 Advanced|广港|10
+      - 🇺🇸 Advanced|广美|01
+      - 🇺🇸 Advanced|广美|02
+      - 🇰🇷 Advanced|广韩|01
+      - 🇰🇷 Advanced|广韩|02
+      - 🇨🇳 Basic|广台|01
+      - 🇨🇳 Basic|广台|02
+      - 🇸🇬 Basic|广新|01
+      - 🇸🇬 Basic|广新|02
+      - 🇸🇬 Basic|广新|03
+      - 🇸🇬 Basic|广新|04
+      - 🇸🇬 Basic|广新|05
+      - 🇸🇬 Basic|广新|06
+      - 🇯🇵 Basic|广日|01
+      - 🇯🇵 Basic|广日|02
+      - 🇯🇵 Basic|广日|03
+      - 🇯🇵 Basic|广日|04
+      - 🇯🇵 Basic|广日|05
+      - 🇯🇵 Basic|广日|06
+      - 🇭🇰 Basic|广港|01
+      - 🇭🇰 Basic|广港|02
+      - 🇭🇰 Basic|广港|03
+      - 🇭🇰 Basic|广港|04
+      - 🇭🇰 Basic|广港|05
+      - 🇭🇰 Basic|广港|06
+      - 🇭🇰 Basic|广港|07
+      - 🇭🇰 Basic|广港|08
+      - 🇭🇰 Basic|广港|09
+      - 🇭🇰 Basic|广港|10
+      - 🇺🇸 Basic|广美|01
+      - 🇺🇸 Basic|广美|02
+      - 🇺🇸 Basic|广美|03
+      - 🇺🇸 Basic|广美|04
+      - 🇺🇸 Basic|广美|05
+      - 🇺🇸 Basic|广美|06
+      - 🇰🇷 Basic|广韩|01
+      - 🇰🇷 Basic|广韩|02
+      - 🏳️‍🌈 Renew|应急续费使用
   - name: 🎥 奈飞视频
     type: select
     proxies:
       - 🚀 节点选择
-      - 🇨🇳 VIP2 A组 台湾01 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾02 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾03 流媒体解锁
-      - 🇨🇳 VIP2 A组 台湾04 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡01 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡02 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡03 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡04 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡05 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡06 媒体解锁流
-      - 🇸🇬 VIP2 A组 新加坡07 流媒体解锁
-      - 🇸🇬 VIP2 A组 新加坡08 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本01 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本02 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本03 流媒体解锁
-      - 🇯🇵 VIP2 A组 日本04 流媒体解锁
-      - 🇺🇸 VIP2 A组 美国01 流媒体解锁|原生IP
-      - 🇺🇸 VIP2 A组 美国02 流媒体解锁|原生IP
-      - 🇺🇸 VIP2 A组 美国03 流媒体解锁
-      - 🇺🇸 VIP2 A组 美国04 流媒体解锁
-      - 🇰🇷 VIP2 A组 韩国01
-      - 🇰🇷 VIP2 A组 韩国02
-      - 🇭🇰 VIP2 A组 香港01 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港02 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港03 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港04 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港05 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港06 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港07 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港08 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港09 流媒体解锁
-      - 🇭🇰 VIP2 A组 香港10 流媒体解锁
+      - 🌈 OC-HanGuo-01
+      - 🌈 OC-HanGuo-02
+      - 🇨🇳 *Ultimate|广台-B|01
+      - 🇨🇳 *Ultimate|广台-B|02
+      - 🇨🇳 *Ultimate|广台|01
+      - 🇨🇳 *Ultimate|广台|02
+      - 🇸🇬 *Ultimate|广新-B|01
+      - 🇸🇬 *Ultimate|广新-B|02
+      - 🇸🇬 *Ultimate|广新|01
+      - 🇸🇬 *Ultimate|广新|02
+      - 🇯🇵 *Ultimate|广日-B|01
+      - 🇯🇵 *Ultimate|广日-B|02
+      - 🇯🇵 *Ultimate|广日|01
+      - 🇯🇵 *Ultimate|广日|02
+      - 🇭🇰 *Ultimate|广港-B|01
+      - 🇭🇰 *Ultimate|广港-B|02
+      - 🇭🇰 *Ultimate|广港-B|03
+      - 🇭🇰 *Ultimate|广港-B|04
+      - 🇭🇰 *Ultimate|广港-B|05
+      - 🇭🇰 *Ultimate|广港-B|06
+      - 🇭🇰 *Ultimate|广港-B|07
+      - 🇭🇰 *Ultimate|广港-B|08
+      - 🇭🇰 *Ultimate|广港-B|09
+      - 🇭🇰 *Ultimate|广港-B|10
+      - 🇭🇰 *Ultimate|广港|01
+      - 🇭🇰 *Ultimate|广港|02
+      - 🇭🇰 *Ultimate|广港|03
+      - 🇭🇰 *Ultimate|广港|04
+      - 🇭🇰 *Ultimate|广港|05
+      - 🇭🇰 *Ultimate|广港|06
+      - 🇭🇰 *Ultimate|广港|07
+      - 🇭🇰 *Ultimate|广港|08
+      - 🇭🇰 *Ultimate|广港|09
+      - 🇭🇰 *Ultimate|广港|10
+      - 🇺🇸 *Ultimate|广美-B|01
+      - 🇺🇸 *Ultimate|广美-B|02
+      - 🇺🇸 *Ultimate|广美|01
+      - 🇺🇸 *Ultimate|广美|02
+      - 🇰🇷 *Ultimate|广韩-B|01
+      - 🇰🇷 *Ultimate|广韩-B|02
+      - 🇰🇷 *Ultimate|广韩|01
+      - 🇰🇷 *Ultimate|广韩|02
+      - 🇨🇳 Advanced|广台|01
+      - 🇨🇳 Advanced|广台|02
+      - 🇸🇬 Advanced|广新|01
+      - 🇸🇬 Advanced|广新|02
+      - 🇯🇵 Advanced|广日|01
+      - 🇯🇵 Advanced|广日|02
+      - 🇭🇰 Advanced|广港|01
+      - 🇭🇰 Advanced|广港|02
+      - 🇭🇰 Advanced|广港|03
+      - 🇭🇰 Advanced|广港|04
+      - 🇭🇰 Advanced|广港|05
+      - 🇭🇰 Advanced|广港|06
+      - 🇭🇰 Advanced|广港|07
+      - 🇭🇰 Advanced|广港|08
+      - 🇭🇰 Advanced|广港|09
+      - 🇭🇰 Advanced|广港|10
+      - 🇺🇸 Advanced|广美|01
+      - 🇺🇸 Advanced|广美|02
+      - 🇰🇷 Advanced|广韩|01
+      - 🇰🇷 Advanced|广韩|02
+      - 🇨🇳 Basic|广台|01
+      - 🇨🇳 Basic|广台|02
+      - 🇸🇬 Basic|广新|01
+      - 🇸🇬 Basic|广新|02
+      - 🇸🇬 Basic|广新|03
+      - 🇸🇬 Basic|广新|04
+      - 🇸🇬 Basic|广新|05
+      - 🇸🇬 Basic|广新|06
+      - 🇯🇵 Basic|广日|01
+      - 🇯🇵 Basic|广日|02
+      - 🇯🇵 Basic|广日|03
+      - 🇯🇵 Basic|广日|04
+      - 🇯🇵 Basic|广日|05
+      - 🇯🇵 Basic|广日|06
+      - 🇭🇰 Basic|广港|01
+      - 🇭🇰 Basic|广港|02
+      - 🇭🇰 Basic|广港|03
+      - 🇭🇰 Basic|广港|04
+      - 🇭🇰 Basic|广港|05
+      - 🇭🇰 Basic|广港|06
+      - 🇭🇰 Basic|广港|07
+      - 🇭🇰 Basic|广港|08
+      - 🇭🇰 Basic|广港|09
+      - 🇭🇰 Basic|广港|10
+      - 🇺🇸 Basic|广美|01
+      - 🇺🇸 Basic|广美|02
+      - 🇺🇸 Basic|广美|03
+      - 🇺🇸 Basic|广美|04
+      - 🇺🇸 Basic|广美|05
+      - 🇺🇸 Basic|广美|06
+      - 🇰🇷 Basic|广韩|01
+      - 🇰🇷 Basic|广韩|02
+      - 🏳️‍🌈 Renew|应急续费使用
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -364,6 +679,7 @@ rules:
  - DOMAIN-SUFFIX,v.smtcdns.com,🎯 全球直连
  - DOMAIN-SUFFIX,vv.video.qq.com,🎯 全球直连
  - IP-CIDR,106.11.0.0/16,🎯 全球直连,no-resolve
+ - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
  - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
@@ -372,6 +688,7 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
  - DOMAIN-SUFFIX,公司,🎯 全球直连
@@ -868,7 +1185,6 @@ rules:
  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
  - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
- - DOMAIN-SUFFIX,overcast.fm,🎯 全球直连
  - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
  - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
  - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
@@ -1376,7 +1692,6 @@ rules:
  - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
  - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
- - DOMAIN-SUFFIX,redirector.gvt1.com,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
@@ -1399,10 +1714,7 @@ rules:
  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
  - DOMAIN-SUFFIX,fanatical.com,🎯 全球直连
  - DOMAIN-SUFFIX,humblebundle.com,🎯 全球直连
- - DOMAIN-SUFFIX,steam-chat.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamcommunity.com,🎯 全球直连
- - DOMAIN-SUFFIX,steampowered.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
  - DOMAIN-KEYWORD,youtube,📹 油管视频
  - DOMAIN,youtubei.googleapis.com,📹 油管视频
  - DOMAIN,yt3.ggpht.com,📹 油管视频
@@ -1504,23 +1816,50 @@ rules:
  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co.uk,🚀 节点选择
+ - DOMAIN-SUFFIX,bidi.net.uk,🚀 节点选择
  - DOMAIN,gamer-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,hinet.net,🚀 节点选择
  - DOMAIN-KEYWORD,livedazn,🚀 节点选择
+ - DOMAIN-KEYWORD,vod2dazn,🚀 节点选择
  - DOMAIN-KEYWORD,voddazn,🚀 节点选择
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
+ - DOMAIN,edge.api.brightcove.com,🚀 节点选择
+ - DOMAIN,players.brightcove.net,🚀 节点选择
+ - DOMAIN-SUFFIX,amplify.outbrain.com,🚀 节点选择
+ - DOMAIN-SUFFIX,bluekai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,control.kochava.com,🚀 节点选择
+ - DOMAIN-SUFFIX,cws.conviva.com,🚀 节点选择
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,dazn-api.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazndn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,🚀 节点选择
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🚀 节点选择
  - DOMAIN-SUFFIX,indazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,indaznlab.com,🚀 节点选择
+ - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
+ - DOMAIN-SUFFIX,perfops.doracdn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,s.llnwi.net,🚀 节点选择
+ - DOMAIN-SUFFIX,s.yimg.jp,🚀 节点选择
+ - DOMAIN-SUFFIX,secure.footprint.net,🚀 节点选择
  - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
+ - DOMAIN-SUFFIX,urbanairship.com,🚀 节点选择
+ - DOMAIN-SUFFIX,vjs.zencdn.net,🚀 节点选择
+ - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,🚀 节点选择
+ - DOMAIN-SUFFIX,yahoo.co.jp,🚀 节点选择
  - DOMAIN-SUFFIX,deezer.com,🚀 节点选择
  - DOMAIN-SUFFIX,dzcdn.net,🚀 节点选择
  - DOMAIN,cdn.registerdisney.go.com,🚀 节点选择
@@ -1741,6 +2080,9 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
+ - PROCESS-NAME,com.google.android.apps.youtube.music,🚀 节点选择
+ - PROCESS-NAME,com.google.android.youtube.tvmusicroot,🚀 节点选择
+ - PROCESS-NAME,com.vanced.android.apps.youtube.music,🚀 节点选择
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -6067,7 +6409,6 @@ rules:
  - DOMAIN-SUFFIX,statueofdemocracy.org,🚀 节点选择
  - DOMAIN-SUFFIX,stc.com.sa,🚀 节点选择
  - DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
- - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
  - DOMAIN-SUFFIX,steel-storm.com,🚀 节点选择
  - DOMAIN-SUFFIX,steemit.com,🚀 节点选择
  - DOMAIN-SUFFIX,steganos.com,🚀 节点选择
@@ -7479,10 +7820,7 @@ rules:
  - DOMAIN-SUFFIX,smartmailcloud.com,🚀 节点选择
  - DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
  - DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
- - DOMAIN-SUFFIX,steam-chat.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
- - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
- - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
  - DOMAIN-SUFFIX,tap.io,🚀 节点选择
  - DOMAIN-SUFFIX,taptap.tw,🚀 节点选择
  - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
